@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI News Updator | Work3</title>
+  <meta name="description" content="AI 新闻与工具情报聚合站点，包含日报、归档与检索页面。" />
+  <style>
+    :root {
+      --bg: #f5f7f4;
+      --card: #ffffff;
+      --line: #d9dfd3;
+      --ink: #162119;
+      --muted: #56655b;
+      --primary: #0c6d5d;
+      --primary-ink: #ecfff8;
+      --accent: #f16a3b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Space Grotesk", "Noto Sans SC", "PingFang SC", sans-serif;
+      background:
+        radial-gradient(circle at 8% 10%, #daf3eb 0%, transparent 35%),
+        radial-gradient(circle at 90% 0%, #ffe5db 0%, transparent 30%),
+        var(--bg);
+    }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 28px 16px 48px; }
+    .hero {
+      background: linear-gradient(140deg, #0f2b42, #0c6d5d);
+      color: var(--primary-ink);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 16px 30px rgba(14, 31, 25, 0.18);
+    }
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: clamp(24px, 4.2vw, 40px);
+      letter-spacing: 0.2px;
+    }
+    .hero p {
+      margin: 0;
+      max-width: 760px;
+      line-height: 1.6;
+      opacity: 0.95;
+      font-size: clamp(14px, 2vw, 17px);
+    }
+    .meta {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+    .pill {
+      border: 1px solid rgba(236, 255, 248, 0.4);
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 13px;
+      color: #ddfff3;
+      background: rgba(255, 255, 255, 0.06);
+    }
+    .section { margin-top: 22px; }
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      letter-spacing: 0.2px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px;
+      box-shadow: 0 6px 18px rgba(15, 30, 18, 0.08);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(15, 30, 18, 0.12);
+    }
+    .card .k {
+      font-size: 12px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+    .card .t {
+      margin: 6px 0;
+      font-weight: 800;
+      font-size: 18px;
+    }
+    .card .d {
+      font-size: 14px;
+      color: var(--muted);
+      min-height: 40px;
+      line-height: 1.45;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .card a:hover { text-decoration: underline; }
+    .note {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.5;
+      border-left: 4px solid var(--accent);
+      padding: 4px 0 4px 10px;
+    }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <h1>AI News Updator / Work3</h1>
+      <p>面向产品、研究和投资决策的信息工作台。每天从 X 抓取信号，完成去重、筛选、分类与聚合，输出可快速阅读和深度追踪的网页结果。</p>
+      <div class="meta">
+        <div class="pill">Daily intelligence</div>
+        <div class="pill">Dedup + quality filter</div>
+        <div class="pill">Tool / Experience / News-Paper</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>站点入口</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="k">Main</div>
+          <div class="t">Digest 首页</div>
+          <div class="d">按天浏览 AI 资讯，适合每天快速扫读核心信息。</div>
+          <a href="./web/index.html">打开页面</a>
+        </article>
+        <article class="card">
+          <div class="k">Archive</div>
+          <div class="t">历史归档</div>
+          <div class="d">按日期查看历史条目，方便回看某天的重点脉络。</div>
+          <a href="./web/archive.html">打开页面</a>
+        </article>
+        <article class="card">
+          <div class="k">Search</div>
+          <div class="t">站内检索</div>
+          <div class="d">按关键词筛选资讯，快速定位工具、论文与事件线索。</div>
+          <a href="./web/search.html">打开页面</a>
+        </article>
+        <article class="card">
+          <div class="k">Method</div>
+          <div class="t">方法说明</div>
+          <div class="d">数据来源、筛选标准和生成策略，保证结果可解释。</div>
+          <a href="./web/methodology.html">打开页面</a>
+        </article>
+      </div>
+      <div class="note">
+        如果你刚更新了本地报告，请把 `report/ai_digest_clone` 同步到 `web/` 后再推送，这样线上内容会和最新日报保持一致。
+      </div>
+    </section>
+
+    <footer>
+      <div>Repo: giao-123-sun/AI_news_updator_work3</div>
+      <div id="updated"></div>
+    </footer>
+  </main>
+  <script>
+    const updated = document.getElementById("updated");
+    const now = new Date();
+    updated.textContent = "Updated: " + now.toISOString().slice(0, 19).replace("T", " ");
+  </script>
+</body>
+</html>

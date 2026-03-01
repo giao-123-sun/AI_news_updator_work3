@@ -1,0 +1,87 @@
+/* AI Digest Replica V2 */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, "PingFang SC", "Noto Sans SC", "Source Han Sans SC", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #374151;
+  background: #fafafa;
+  letter-spacing: 0.04em;
+}
+.container { max-width: 750px; margin: 0 auto; padding: 2rem 1.35rem 2.5rem; }
+.site-nav {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 0; margin-bottom: 1rem; border-bottom: 2px solid #1a6b3c;
+  font-size: 0.95rem;
+}
+.nav-title { color: #1a6b3c; font-weight: 700; text-decoration: none; }
+.nav-links { list-style: none; display: flex; gap: 1.15rem; align-items: center; }
+.nav-links a, .nav-links button {
+  color: #6b7280; text-decoration: none; border: 0; background: transparent; cursor: pointer; font-size: 0.95rem;
+}
+.nav-links a:hover, .nav-links a.active, .nav-links button:hover { color: #111827; }
+.page-header { text-align: center; padding: 2.25rem 0 1.4rem; }
+.page-subtitle {
+  font-family: "Songti SC", "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
+  font-size: 1.92rem; font-weight: 800; color: #1a1a1a; margin-bottom: 0.4rem; line-height: 1.45;
+}
+.page-tagline { font-size: 0.88rem; color: #888; letter-spacing: 0.03em; }
+.article-list { list-style: none; display: grid; gap: 12px; }
+.article-card {
+  background: #fff; border: 1px solid #f0f2f4; border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05); overflow: hidden;
+}
+.card-link { display: block; text-decoration: none; color: inherit; padding: 1.1rem 1.2rem 0.8rem; }
+.card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.55rem; }
+.card-date { font-size: 0.86rem; color: #9ca3af; font-weight: 600; }
+.card-numbered { list-style: none; display: grid; gap: 0.42rem; }
+.card-numbered li { display: grid; grid-template-columns: 30px 1fr; gap: 0.5rem; color: #6b7280; line-height: 1.58; font-size: 0.92rem; }
+.card-numbered .lead { color: #1f2937; font-weight: 700; font-size: 1.13rem; line-height: 1.62; }
+.num {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: #c1814f; font-size: 1.08rem; font-weight: 700; letter-spacing: 0;
+}
+.card-numbered li:not(.lead) .num { color: #d1d5db; font-size: 0.95rem; }
+.card-stat {
+  display: block; text-align: right; text-decoration: none; padding: 0 1.2rem 0.9rem;
+  font-size: 0.75rem; color: #a3a3a3;
+}
+.card-stat:hover { color: #6b7280; }
+.view-all { text-align: center; margin: 1.2rem 0 0.6rem; font-size: 0.88rem; }
+.view-all a { color: #9ca3af; text-decoration: none; }
+.view-all a:hover { color: #6b7280; }
+.article-wrap {
+  background: #fff; border: 1px solid #f0f2f4; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.05);
+  padding: 1.3rem 1.15rem;
+}
+.article-wrap h1 {
+  font-family: "Songti SC", "Noto Serif SC", "Source Han Serif SC", Georgia, serif;
+  font-size: 1.55rem; color: #111827; line-height: 1.45; margin-bottom: 0.45rem;
+}
+.meta { color: #9ca3af; font-size: 0.82rem; margin-bottom: 0.9rem; }
+.section { border-top: 1px solid #f0f2f4; padding-top: 0.9rem; margin-top: 0.9rem; }
+.section h2 { font-size: 1.22rem; line-height: 1.58; margin-bottom: 0.45rem; color: #1f2937; }
+.section p { font-size: 1.05rem; color: #4b5563; line-height: 1.85; margin-bottom: 0.45rem; white-space: pre-wrap; }
+.links a { margin-right: 10px; font-size: 0.85rem; color: #2563eb; text-decoration: none; }
+.list-plain { list-style: none; display: grid; gap: 10px; }
+.list-plain li { background: #fff; border: 1px solid #f0f2f4; border-radius: 6px; padding: 0.75rem; font-size: 0.9rem; line-height: 1.65; }
+.footer { margin-top: 1.5rem; text-align: center; color: #b8b8b8; font-size: 0.72rem; }
+@media (max-width: 740px) {
+  body { font-size: 1rem; }
+  .container { padding: 1rem 0.65rem 1.5rem; }
+  .site-nav { flex-direction: column; align-items: flex-start; gap: 0.45rem; margin-bottom: 0.8rem; }
+  .nav-links { gap: 0.9rem; flex-wrap: wrap; }
+  .page-header { padding: 1.3rem 0 0.9rem; }
+  .page-subtitle { font-size: 1.42rem; line-height: 1.4; }
+  .page-tagline { font-size: 0.82rem; }
+  .card-link { padding: 1rem 0.9rem 0.7rem; }
+  .card-numbered li { grid-template-columns: 28px 1fr; font-size: 0.9rem; }
+  .card-numbered .lead { font-size: 1rem; }
+  .num { font-size: 0.95rem; }
+  .card-numbered li:not(.lead) .num { font-size: 0.88rem; }
+  .card-stat { padding: 0 0.9rem 0.8rem; font-size: 0.72rem; }
+  .article-wrap { padding: 1rem 0.9rem; }
+  .article-wrap h1 { font-size: 1.2rem; }
+  .section h2 { font-size: 1.06rem; }
+  .section p { font-size: 0.98rem; }
+}

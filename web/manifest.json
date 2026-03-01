@@ -1,0 +1,378 @@
+{
+  "version": "v2",
+  "days": [
+    {
+      "date": "2026-03-01",
+      "digest": "digest/2026-03-01-digest-00.html",
+      "sources": "sources/2026-03-01-digest-00-sources.html",
+      "events": 21
+    },
+    {
+      "date": "2026-02-28",
+      "digest": "digest/2026-02-28-digest-00.html",
+      "sources": "sources/2026-02-28-digest-00-sources.html",
+      "events": 30
+    },
+    {
+      "date": "2026-02-27",
+      "digest": "digest/2026-02-27-digest-00.html",
+      "sources": "sources/2026-02-27-digest-00-sources.html",
+      "events": 39
+    },
+    {
+      "date": "2026-02-26",
+      "digest": "digest/2026-02-26-digest-00.html",
+      "sources": "sources/2026-02-26-digest-00-sources.html",
+      "events": 29
+    },
+    {
+      "date": "2026-02-25",
+      "digest": "digest/2026-02-25-digest-00.html",
+      "sources": "sources/2026-02-25-digest-00-sources.html",
+      "events": 28
+    },
+    {
+      "date": "2026-02-22",
+      "digest": "digest/2026-02-22-digest-00.html",
+      "sources": "sources/2026-02-22-digest-00-sources.html",
+      "events": 5
+    },
+    {
+      "date": "2026-02-21",
+      "digest": "digest/2026-02-21-digest-00.html",
+      "sources": "sources/2026-02-21-digest-00-sources.html",
+      "events": 16
+    },
+    {
+      "date": "2026-02-20",
+      "digest": "digest/2026-02-20-digest-00.html",
+      "sources": "sources/2026-02-20-digest-00-sources.html",
+      "events": 13
+    },
+    {
+      "date": "2026-02-19",
+      "digest": "digest/2026-02-19-digest-00.html",
+      "sources": "sources/2026-02-19-digest-00-sources.html",
+      "events": 14
+    },
+    {
+      "date": "2026-02-18",
+      "digest": "digest/2026-02-18-digest-00.html",
+      "sources": "sources/2026-02-18-digest-00-sources.html",
+      "events": 25
+    },
+    {
+      "date": "2026-02-17",
+      "digest": "digest/2026-02-17-digest-00.html",
+      "sources": "sources/2026-02-17-digest-00-sources.html",
+      "events": 8
+    },
+    {
+      "date": "2026-02-16",
+      "digest": "digest/2026-02-16-digest-00.html",
+      "sources": "sources/2026-02-16-digest-00-sources.html",
+      "events": 3
+    },
+    {
+      "date": "2026-02-15",
+      "digest": "digest/2026-02-15-digest-00.html",
+      "sources": "sources/2026-02-15-digest-00-sources.html",
+      "events": 4
+    },
+    {
+      "date": "2026-02-14",
+      "digest": "digest/2026-02-14-digest-00.html",
+      "sources": "sources/2026-02-14-digest-00-sources.html",
+      "events": 5
+    },
+    {
+      "date": "2026-02-13",
+      "digest": "digest/2026-02-13-digest-00.html",
+      "sources": "sources/2026-02-13-digest-00-sources.html",
+      "events": 10
+    },
+    {
+      "date": "2026-02-12",
+      "digest": "digest/2026-02-12-digest-00.html",
+      "sources": "sources/2026-02-12-digest-00-sources.html",
+      "events": 15
+    },
+    {
+      "date": "2026-02-11",
+      "digest": "digest/2026-02-11-digest-00.html",
+      "sources": "sources/2026-02-11-digest-00-sources.html",
+      "events": 5
+    },
+    {
+      "date": "2026-02-10",
+      "digest": "digest/2026-02-10-digest-00.html",
+      "sources": "sources/2026-02-10-digest-00-sources.html",
+      "events": 7
+    },
+    {
+      "date": "2026-02-09",
+      "digest": "digest/2026-02-09-digest-00.html",
+      "sources": "sources/2026-02-09-digest-00-sources.html",
+      "events": 5
+    },
+    {
+      "date": "2026-02-07",
+      "digest": "digest/2026-02-07-digest-00.html",
+      "sources": "sources/2026-02-07-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-02-06",
+      "digest": "digest/2026-02-06-digest-00.html",
+      "sources": "sources/2026-02-06-digest-00-sources.html",
+      "events": 3
+    },
+    {
+      "date": "2026-02-05",
+      "digest": "digest/2026-02-05-digest-00.html",
+      "sources": "sources/2026-02-05-digest-00-sources.html",
+      "events": 4
+    },
+    {
+      "date": "2026-02-04",
+      "digest": "digest/2026-02-04-digest-00.html",
+      "sources": "sources/2026-02-04-digest-00-sources.html",
+      "events": 8
+    },
+    {
+      "date": "2026-02-03",
+      "digest": "digest/2026-02-03-digest-00.html",
+      "sources": "sources/2026-02-03-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-02-02",
+      "digest": "digest/2026-02-02-digest-00.html",
+      "sources": "sources/2026-02-02-digest-00-sources.html",
+      "events": 3
+    },
+    {
+      "date": "2026-02-01",
+      "digest": "digest/2026-02-01-digest-00.html",
+      "sources": "sources/2026-02-01-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-31",
+      "digest": "digest/2026-01-31-digest-00.html",
+      "sources": "sources/2026-01-31-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-30",
+      "digest": "digest/2026-01-30-digest-00.html",
+      "sources": "sources/2026-01-30-digest-00-sources.html",
+      "events": 4
+    },
+    {
+      "date": "2026-01-29",
+      "digest": "digest/2026-01-29-digest-00.html",
+      "sources": "sources/2026-01-29-digest-00-sources.html",
+      "events": 3
+    },
+    {
+      "date": "2026-01-28",
+      "digest": "digest/2026-01-28-digest-00.html",
+      "sources": "sources/2026-01-28-digest-00-sources.html",
+      "events": 2
+    },
+    {
+      "date": "2026-01-27",
+      "digest": "digest/2026-01-27-digest-00.html",
+      "sources": "sources/2026-01-27-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-26",
+      "digest": "digest/2026-01-26-digest-00.html",
+      "sources": "sources/2026-01-26-digest-00-sources.html",
+      "events": 2
+    },
+    {
+      "date": "2026-01-23",
+      "digest": "digest/2026-01-23-digest-00.html",
+      "sources": "sources/2026-01-23-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-22",
+      "digest": "digest/2026-01-22-digest-00.html",
+      "sources": "sources/2026-01-22-digest-00-sources.html",
+      "events": 2
+    },
+    {
+      "date": "2026-01-21",
+      "digest": "digest/2026-01-21-digest-00.html",
+      "sources": "sources/2026-01-21-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-15",
+      "digest": "digest/2026-01-15-digest-00.html",
+      "sources": "sources/2026-01-15-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-14",
+      "digest": "digest/2026-01-14-digest-00.html",
+      "sources": "sources/2026-01-14-digest-00-sources.html",
+      "events": 6
+    },
+    {
+      "date": "2026-01-13",
+      "digest": "digest/2026-01-13-digest-00.html",
+      "sources": "sources/2026-01-13-digest-00-sources.html",
+      "events": 2
+    },
+    {
+      "date": "2026-01-12",
+      "digest": "digest/2026-01-12-digest-00.html",
+      "sources": "sources/2026-01-12-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-08",
+      "digest": "digest/2026-01-08-digest-00.html",
+      "sources": "sources/2026-01-08-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-07",
+      "digest": "digest/2026-01-07-digest-00.html",
+      "sources": "sources/2026-01-07-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-06",
+      "digest": "digest/2026-01-06-digest-00.html",
+      "sources": "sources/2026-01-06-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2026-01-05",
+      "digest": "digest/2026-01-05-digest-00.html",
+      "sources": "sources/2026-01-05-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-12-24",
+      "digest": "digest/2025-12-24-digest-00.html",
+      "sources": "sources/2025-12-24-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-12-19",
+      "digest": "digest/2025-12-19-digest-00.html",
+      "sources": "sources/2025-12-19-digest-00-sources.html",
+      "events": 2
+    },
+    {
+      "date": "2025-12-18",
+      "digest": "digest/2025-12-18-digest-00.html",
+      "sources": "sources/2025-12-18-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-12-15",
+      "digest": "digest/2025-12-15-digest-00.html",
+      "sources": "sources/2025-12-15-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-12-11",
+      "digest": "digest/2025-12-11-digest-00.html",
+      "sources": "sources/2025-12-11-digest-00-sources.html",
+      "events": 3
+    },
+    {
+      "date": "2025-12-10",
+      "digest": "digest/2025-12-10-digest-00.html",
+      "sources": "sources/2025-12-10-digest-00-sources.html",
+      "events": 3
+    },
+    {
+      "date": "2025-12-09",
+      "digest": "digest/2025-12-09-digest-00.html",
+      "sources": "sources/2025-12-09-digest-00-sources.html",
+      "events": 2
+    },
+    {
+      "date": "2025-12-05",
+      "digest": "digest/2025-12-05-digest-00.html",
+      "sources": "sources/2025-12-05-digest-00-sources.html",
+      "events": 2
+    },
+    {
+      "date": "2025-12-04",
+      "digest": "digest/2025-12-04-digest-00.html",
+      "sources": "sources/2025-12-04-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-12-01",
+      "digest": "digest/2025-12-01-digest-00.html",
+      "sources": "sources/2025-12-01-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-11-27",
+      "digest": "digest/2025-11-27-digest-00.html",
+      "sources": "sources/2025-11-27-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-11-26",
+      "digest": "digest/2025-11-26-digest-00.html",
+      "sources": "sources/2025-11-26-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-11-23",
+      "digest": "digest/2025-11-23-digest-00.html",
+      "sources": "sources/2025-11-23-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-11-19",
+      "digest": "digest/2025-11-19-digest-00.html",
+      "sources": "sources/2025-11-19-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-09-11",
+      "digest": "digest/2025-09-11-digest-00.html",
+      "sources": "sources/2025-09-11-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-09-08",
+      "digest": "digest/2025-09-08-digest-00.html",
+      "sources": "sources/2025-09-08-digest-00-sources.html",
+      "events": 3
+    },
+    {
+      "date": "2025-07-17",
+      "digest": "digest/2025-07-17-digest-00.html",
+      "sources": "sources/2025-07-17-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-03-07",
+      "digest": "digest/2025-03-07-digest-00.html",
+      "sources": "sources/2025-03-07-digest-00-sources.html",
+      "events": 1
+    },
+    {
+      "date": "2025-02-14",
+      "digest": "digest/2025-02-14-digest-00.html",
+      "sources": "sources/2025-02-14-digest-00-sources.html",
+      "events": 2
+    }
+  ],
+  "count": 62
+}
